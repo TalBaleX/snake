@@ -45,6 +45,9 @@ function snakeMove(event) {
         }
         
     }
+    if(event.keyCode==27) {
+        pause()
+    }
 }
 
 function pause() {
